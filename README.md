@@ -43,6 +43,8 @@ In order to further explore these results, we plot the correlation matrix betwee
 
 ## Conclusions and Recommendations
 
+In conclusion, our analysis suggests that any loss (or theft) of material is not responsible for the rise in costs of packaging material. 
+
 ## Appendix - Figures
 
 ![image](https://github.com/waggjeff/UNICEF/assets/33003589/f75ef78b-8ad4-4df2-9f73-88c75ea8830a)
