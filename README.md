@@ -27,7 +27,15 @@ In order to further clean our data and prepare it for modelling, we have concate
 
 ## Feature Engineering
 
+As we have been given the information that some supplies are possibly being diverted from the loading warehouse before reaching the distribution sites. It is therefore useful to create three new features which are the 'losses' (in kg) that have occurred for each of the three supplies on a given date. We assume that the supplies are transported between the loading warehouse and distribution point on the same day, which would allow us to calulate a difference between the mass of the supply item at the two locations. 
+
 ## Machine Learning Models
+
+At this stage, we want to develop a machine learning model with the existing data that can be used to predict the cost of the packaging material. The goal is to see whether there are features in the data which are correlated with the cost of packaging (e.g. mass loss of supply item A, B, or C). We assume that packaging materials A and B might be used to package any of supply items A, B, or C, and that supply item A is not necessarily packaged using material A.   
+
+We begin by developing a simple multi-target linear regression model. The two target variables are the prices of the packaging material (px_matA and px_matB), and for model features we use the prices of the three supplies, the reduction in mass of each supply item between loading and distribution points, and the weather data. The training and testing datasets are created with an 80:20 split, in order to ensure sufficient data exist for model creation.  
+
+In spite of the small dataset, our linear reggression model does a very good job of predicting the packaging material prices on a given day with a mean-squared error of 0.084 USD. We then examine   
 
 ## Correlations Between Features
 
