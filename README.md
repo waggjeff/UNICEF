@@ -35,7 +35,7 @@ At this stage, we want to develop a machine learning model with the existing dat
 
 We begin by developing a simple multi-target linear regression model. The two target variables are the prices of the packaging material (px_matA and px_matB), while for model features we use the prices of the three supplies, the reduction in mass of each supply item between loading and distribution points, and the weather data. The training and testing datasets are created with an 80:20 split, in order to ensure sufficient data exist for model fitting.  
 
-In spite of the small dataset, our linear reggression model does a very good job of predicting the packaging material prices on a given day with a mean-squared error of 0.084 USD. We then examine the correlation coefficients of the model fits to determine which feature is more important when predicting package price. The results are shown in Figures 1 and 2 for the feature importance in the models used to predict the price of packaging materials A and B, respectively. 
+In spite of the small dataset, our linear reggression model does a very good job of predicting the packaging material prices on a given day with a mean-squared error of 0.084 USD. We then examine the correlation coefficients of the model fits to determine which feature is more important when predicting package price. The results are shown in Figures 1 and 2 for the feature importance in the models used to predict the price of packaging materials A and B, respectively. In both cases, we find that the price of supply item C is most strongly correlated with the price of packaging material. This would suggest that external economic factors are driving the prices of these items (rather than theft of packaging). 
 
 ## Correlations Between Features
 
