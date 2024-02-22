@@ -19,7 +19,7 @@ Data analysis and results are presented in the accompanying Python Jupyter noteb
 
 ## Data and Cleaning
 
-The five datasets provided include prices for two differents types of packaging, market prices for three types of humanitarian supplies, mass of quantities for the three different supplies delivered to both the loading warehouse and the distribution points, and daily information on the weather conditions. We begin by importing these datasets into Python DataFrames in our Jupyter notebook and performing some initial cleaning and formatting. Specifically, we convert the 'date' column of each dataset into datetime format for ease of future comparison. 
+The five datasets provided include prices for two differents types of packaging, market prices for three types of humanitarian supplies, masses of quantities for the three different supplies delivered to both the loading warehouse and the distribution points, and daily information on the weather conditions. We begin by importing these datasets into Python DataFrames in our Jupyter notebook and performing some initial cleaning and formatting. Specifically, we convert the 'date' column of each dataset into datetime format for ease of future comparison. 
 
 When examining the data, it was also found that one of the date entries in the 'weather.csv' file required editting, which we corrected in our code. We also noted a number of missing data points, which we have replaced with the mean value of the column in which these data are found. 
 
