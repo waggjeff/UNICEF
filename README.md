@@ -27,7 +27,7 @@ In order to further clean our data and prepare it for modelling, we have concate
 
 ## Feature Engineering
 
-As we have been given the information that some supplies are possibly being diverted from the loading warehouse before reaching the distribution sites. It is therefore useful to create three new features which are the 'losses' (in kg) that have occurred for each of the three supplies on a given date. We assume that the supplies are transported between the loading warehouse and distribution point on the same day, which would allow us to calulate a difference between the mass of the supply item at the two locations. 
+We have been given the information that some supplies are possibly being diverted from the loading warehouse before reaching the distribution sites. It is therefore useful to create three new features which are the 'losses' (in kg) that have occurred for each of the three supplies on a given date. We assume that the supplies are transported between the loading warehouse and distribution point on the same day, which would allow us to calulate a difference between the mass of the supply item at the two locations. 
 
 ## Machine Learning Models
 
