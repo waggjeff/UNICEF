@@ -23,7 +23,7 @@ The five datasets provided include prices for two differents types of packaging,
 
 When examining the data, it was also found that one of the date entries in the 'weather.csv' file required editting, which we corrected in our code. We also noted a number of missing data points, which we have replaced with the mean value of the column in which these data are found. 
 
-In order to further clean our data and prepare it for modelling, we have concatenated all of the datasets into one DataFrame, using the date time column. This leaves us with a dataset containing 62 entries. 
+In order to further clean our data and prepare it for modelling, we have concatenated all of the datasets into one DataFrame using the date time column. This leaves us with a dataset containing 62 entries. 
 
 ## Feature Engineering
 
