@@ -35,9 +35,11 @@ At this stage, we want to develop a machine learning model with the existing dat
 
 We begin by developing a simple multi-target linear regression model. The two target variables are the prices of the packaging material (px_matA and px_matB), and for model features we use the prices of the three supplies, the reduction in mass of each supply item between loading and distribution points, and the weather data. The training and testing datasets are created with an 80:20 split, in order to ensure sufficient data exist for model creation.  
 
-In spite of the small dataset, our linear reggression model does a very good job of predicting the packaging material prices on a given day with a mean-squared error of 0.084 USD. We then examine   
+In spite of the small dataset, our linear reggression model does a very good job of predicting the packaging material prices on a given day with a mean-squared error of 0.084 USD. We then examine the correlation coefficients of the model fits to determine which feature is more important when predicting package price. The results are shown in Figures 1 and 2 for the feature importance in the models used to predict the price of packaging materials A and B, respectively. 
 
 ## Correlations Between Features
+
+In order to further explore these results, we plot the correlation matrix between all features in our data (Figure 3). We confirm the correlation between the price of supply item C and the prices of the packaging material, while also making a fascinating discovery. From the matrix we see that the amount of supply material lost exhibits a strong inverse correlation with the temperature of a given day. This may provide clues as to the origin of the losses. 
 
 ## Conclusions and Recommendations
 
@@ -45,6 +47,12 @@ In spite of the small dataset, our linear reggression model does a very good job
 
 ![image](https://github.com/waggjeff/UNICEF/assets/33003589/f75ef78b-8ad4-4df2-9f73-88c75ea8830a)
 
+Figure 1: Model correlation coefficients for each of the features used in our linear regression model when predicting the price of packaging material A. It appears that the price of supply item C is the most important factor when predicting packaging price. 
+
 ![image](https://github.com/waggjeff/UNICEF/assets/33003589/a19f679b-6870-4576-8167-0a09f729644d)
 
+Figure 2: Model correlation coefficients for each of the features used in our linear regression model when predicting the price of packaging material B. It appears that the price of supply item C is once again the most important factor when predicting packaging price. 
+
 ![image](https://github.com/waggjeff/UNICEF/assets/33003589/404e1968-66cf-434b-87f6-bdae552386ba)
+
+Figure 3: Correlation matrix for the features in our analysis. It is worth noting that the daily temperature appears to be anti-correlated with the amount of supplies lost between the loading warehouse and the distribution point. 
