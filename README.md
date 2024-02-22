@@ -43,7 +43,7 @@ In order to further explore these results, we plot the correlation matrix betwee
 
 ## Conclusions and Recommendations
 
-In conclusion, our analysis suggests that any loss (or theft) of material is not responsible for the rise in costs of packaging material. 
+In conclusion, our analysis suggests that any loss (or theft) of material is not responsible for the rise in costs of packaging material. We propose that external market factors are likely driving the cost of both packaging materials and some aid supply items. Our correlation matrix suggests that a decrease in temperature is somehow correlated with a loss of items. We do not propose an explanation for this here. As we have found missing data, another explanation could be that the quantity of items received at the distribution point is not being recorded correctly. However, if that were the case it would be difficult to explain the temperature dependance. 
 
 ## Appendix - Figures
 
