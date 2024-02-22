@@ -7,7 +7,7 @@ The Republic of Porejimo faces significant challenges with the diversion of huma
 
 Recently, there has been a notable increase in the prices for specialized packaging materials. This has raised concerns that inventories are being diverted from loading warehouses before getting to the distribution points to be sold in the black market where they attract high prices.
 
-Using the five datasets provided, the Country Office of the Republic of Porejimo would like to make a prudent decision about a potential intervention to address the issue. They would have requested science expertise to help address the following questions:
+Using the five datasets provided, the Country Office of the Republic of Porejimo would like to make a prudent decision about a potential intervention to address the issue. They have requested data science expertise to help address the following questions:
 
 - Are the market prices for the packaging materials explaining the diversion of humanitarian supplies?
 
