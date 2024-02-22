@@ -39,11 +39,11 @@ In spite of the small dataset, our linear reggression model does a very good job
 
 ## Correlations Between Features
 
-In order to further explore these results, we plot the correlation matrix between all features in our data (Figure 3). We confirm the correlation between the price of supply item C and the prices of the packaging material, while also making a fascinating discovery. From the matrix we see that the amount of supply material lost exhibits a strong inverse correlation with the temperature of a given day. This may provide clues as to the origin of the losses. 
+In order to further explore these results, we plot the correlation matrix between all features in our data (Figure 3). We confirm the correlation between the price of supply item C and the prices of the packaging material, while also making a fascinating discovery. From the matrix we see that the amount of supply material lost exhibits a strong inverse correlation with the temperature, and a positive correlation with rainfall on a given day. This may provide clues as to the origin of the losses. 
 
 ## Conclusions and Recommendations
 
-In conclusion, our analysis suggests that any loss (or theft) of material is not responsible for the rise in costs of packaging material. We propose that external market factors are likely driving the cost of both packaging materials and some aid supply items. Our correlation matrix suggests that a decrease in temperature is somehow correlated with a loss of items. We do not propose an explanation for this here. As we have found missing data, another explanation could be that the quantity of items received at the distribution point is not being recorded correctly. However, if that were the case it would be difficult to explain the temperature dependance. 
+In conclusion, our analysis suggests that any loss (or theft) of material is not responsible for the rise in costs of packaging material. We propose that external market factors are likely driving the cost of both packaging materials and some aid supply items. Our correlation matrix suggests that a decrease in temperature and an increase in rainfall are somehow related to a loss of items. It is possible that heavy rain is diverting trucks, or causing them to become stuck en route to the distribution point. As we have found missing data, another explanation could be that the quantity of items received at the distribution point is not being recorded correctly. However, if that were the case it would be difficult to explain the temperature and rainfall dependancies. 
 
 ## Appendix - Figures
 
