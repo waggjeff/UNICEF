@@ -39,7 +39,7 @@ In spite of the small dataset, our linear reggression model does a very good job
 
 ## Correlations Between Features
 
-In order to further explore these results, we plot the correlation matrix between all features in our data (Figure 3). We confirm the correlation between the price of supply item C and the prices of the packaging material, while also making a fascinating discovery. From the matrix we see that the amount of supply material lost exhibits a strong inverse correlation with the temperature, and a positive correlation with rainfall on a given day. This may provide clues as to the origin of the losses. 
+In order to further explore these results, we plot the correlation matrix between all features in our data (Figure 3). We confirm the correlation between the price of supply item C and the prices of the packaging material, while also making a fascinating discovery. From the matrix we see that the amount of supply material lost exhibits a strong inverse correlation with the temperature, and a positive correlation with rainfall on a given day. Rainfall and temperature are anti-correlated, as one would expect from atmospheric physics. This may provide clues as to the origin of the losses. 
 
 ## Conclusions and Recommendations
 
